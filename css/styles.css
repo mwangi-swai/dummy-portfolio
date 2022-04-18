@@ -221,10 +221,10 @@ Navbar
   .nav-links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+    /* justify-items: center; */
     -moz-column-gap: 2rem;
     column-gap: 2rem;
-    justify-items: end;
+    justify-self: end;
   }
   .nav-links a {
     text-transform: capitalize;
